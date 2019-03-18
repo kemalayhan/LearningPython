@@ -14,7 +14,7 @@ class Film():
 
     def __str__(self):
 
-        return "Film: {}\nYönetmen: {}\nTür: {}\nSüre: {}\nYapýmcý:{}".format(self.isim,self.yonetmen,self.tur,self.sure,self.yapimci)
+        return "Film: {}\nYÃ¶netmen: {}\nTÃ¼r: {}\nSÃ¼re: {}\nYapÄ±mcÄ±:{}".format(self.isim,self.yonetmen,self.tur,self.sure,self.yapimci)
 
 class Arsiv():
 
@@ -42,7 +42,7 @@ class Arsiv():
         filmler = self.cursor.fetchall()
 
         if len(filmler) == 0:
-            print("Arþivde hiç film bulunmamaktadýr....")
+            print("ArÅŸivde hiÃ§ film bulunmamaktadÄ±r....")
 
         else:
             for i in filmler:
@@ -56,7 +56,7 @@ class Arsiv():
         filmler = self.cursor.fetchall()
 
         if len(filmler) == 0:
-            print("Aradýðýnýz film bulunmamaktadýr....")
+            print("AradÄ±ÄŸÄ±nÄ±z film bulunmamaktadÄ±r....")
 
         else:
             for i in filmler:
@@ -87,8 +87,8 @@ class Arsiv():
         filmler = self.cursor.fetchall()
 
         if len(filmler) == 0:
-            print("Aradýðýnýz film bulunmamaktadýr....")
-            print("1. Ýþlem ile filmleri görüntüleyip tekrar seçiniz....")
+            print("AradÄ±ÄŸÄ±nÄ±z film bulunmamaktadÄ±r.....")
+            print("1. Ä°ÅŸlem ile filmleri gÃ¶rÃ¼ntÃ¼leyip tekrar seÃ§iniz....")
 
         else:
             sorgu2= "Update filmler set tur = ? where film = ?"

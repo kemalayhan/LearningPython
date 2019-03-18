@@ -2,11 +2,11 @@ from film import *
 
 print("""***********************************
 
-Film Arşiv Programına Hoşgeldiniz.
+Film ArÅŸiv ProgramÄ±na HoÅŸgeldiniz.
 
-İşlemler;
+Ä°ÅŸlemler;
 
-1. Filmleri Göster
+1. Filmleri Gï¿½ster
 
 2. Film Sorgulama
 
@@ -14,36 +14,36 @@ Film Arşiv Programına Hoşgeldiniz.
 
 4. Film Sil 
 
-5. Filmin türünü değiştir
+5. Filmin tÃ¼rÃ¼nÃ¼ deÄŸiÅŸtir
 
-Çıkmak için 'q' ya basın.
+Ã‡Ä±kmak iÃ§in 'q' ya basÄ±n.
 ***********************************""")
 
 film = Arsiv()
 
 while True:
-    islem = input("Yapılacak işlemi seçiniz:")
+    islem = input("YapÄ±lacak iÅŸlemi seÃ§iniz:")
     if islem == "q":
-        print("Programdan çıkılıyor...")
+        print("Programdan Ã‡Ä±kÄ±lÄ±yor...")
         break
 
     if islem == "1":
         film.filmleri_goster()
 
     if islem == "2":
-        islem2 = input("Aradığınız filmin adını yazınız: ")
+        islem2 = input("AradÄ±ÄŸÄ±nÄ±z filmin adÄ±nÄ± yazÄ±nÄ±z: ")
 
-        print("Film sorgulanıyor.....")
+        print("Film sorgulanÄ±yor.....")
         time.sleep(1)
         film.film_sorgula(islem2)
 
 
     if islem == "3":
         film_ismi = input("Film Ismi: ")
-        yonetmen = input("Yönetmen: ")
-        tur = input("Film Türü: ")
-        sure = input("Filmin Süresi: ")
-        yapimci = input("Yapımcı: ")
+        yonetmen = input("YÃ¶netmen: ")
+        tur = input("Film TÃ¼rÃ¼: ")
+        sure = input("Filmin SÃ¼resi: ")
+        yapimci = input("YapÄ±mcÄ±: ")
 
         yeni_film = Film(film_ismi,yonetmen,tur,sure,yapimci)
         print("Film ekleniyor....")
@@ -53,16 +53,16 @@ while True:
 
 
     if islem == "4":
-        silinecek_film = input("Silinecek filmin adını giriniz: ")
+        silinecek_film = input("Silinecek filmin adÄ±nÄ± giriniz: ")
 
         film.film_sil(silinecek_film)
 
 
     if islem == "5":
-        eski_film = input("Türünü güncellemek istediğiniz filmi giriniz: ")
-        yeni_tur = input("Filmin yeni türünü giriniz: ")
+        eski_film = input("TÃ¼rÃ¼nÃ¼ gÃ¼ncellemek istediÄŸiniz filmi giriniz: ")
+        yeni_tur = input("Filmin yeni tÃ¼rÃ¼nÃ¼ giriniz: ")
 
-        print("Film güncelleniyor....")
+        print("Film gï¿½ncelleniyor....")
         time.sleep(1)
         film.tur_guncelle(eski_film,yeni_tur)
         print("Film guncellendi........")
