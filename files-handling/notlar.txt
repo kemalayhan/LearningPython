@@ -1,0 +1,7 @@
+Kemal Ayhan,70,80,90
+Alperen Güldemir,100,50,75,
+Mesut Çifci,50,60,70
+Onur Yýlmaz,40,90,60
+Deniz Durtaþ,20,70,60
+Muaz Binbir,10,40,70
+Alperen Özsoy,40,60,80

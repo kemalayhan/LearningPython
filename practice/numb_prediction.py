@@ -6,6 +6,8 @@ print("""
 Sayı Tahmin Oyunu
 
 Tahmin 0 - 40 arasında olmalı
+
+
 ******************
 """)
 

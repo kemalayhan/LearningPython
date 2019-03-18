@@ -27,13 +27,10 @@ class Kahraman():
             miktar = int(miktar)
             if (miktar == "0"):
                 print("Değişiklik yapılmadı",self.maaş)
-            elif (miktar < 0):
-                self.maaş -= miktar
-                print("Maaş:", self.maaş)
-            elif (miktar > 0):
+            else:
                 self.maaş += miktar
                 print("Maaş:", self.maaş)
-            else:
+
                 print("Maaş Güncellendi:", self.maaş)
                 break
 

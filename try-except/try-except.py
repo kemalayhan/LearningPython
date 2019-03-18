@@ -32,4 +32,3 @@ for i in list1:
     except:
         pass
 
-
