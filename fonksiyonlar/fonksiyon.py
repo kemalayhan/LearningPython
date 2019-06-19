@@ -77,3 +77,13 @@ def pisagor_bul():
 
 for i in pisagor_bul():
     print(i)
+	
+#Bilgileri Yazdırma
+	def ogrenci(*bilgiler):
+    bilgi = ""
+    for i in bilgiler:
+        bilgi += i
+    print("Ögrencinin bilgileri:\n", bilgi)
+
+
+ogrenci("Mazlum ", "Teknoloji Fakütesi ", "Bilgisayar Mühendisliği ", "1.Sınıf")
