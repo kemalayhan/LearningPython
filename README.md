@@ -14,9 +14,3 @@
 | 10. hafta | İleri Seviye Veri Yapıları ve Objeler |
 | 11. hafta | Sqlite Veritabanı |
 | 12. hafta | Fonksiyonların İleri Seviye Özellikleri ve Decoratorlar |
-| 13. hafta | Pythondaki iteratorlar ve Generatorlar |
-| 14. hafta | Pythonda ileri Seviye Modüller |
-| 15. hafta | PyQt5 Arayüz Geliştirme |
-| 16. hafta | Flask Framework ile Web Geliştirme Temelleri |
-| 17. hafta | Flask , ORM ve SqlAlchemy ile Todo App |
-| 18. hafta | Django Framework ile Web Geliştirme Temelleri |
